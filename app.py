@@ -39,7 +39,7 @@ ATTESTATION_TTL     = 60
 
 class Info:
     def __init__(self):
-        self.TitleId:   str = os.environ.get("TITLE_ID", "128858")
+        self.TitleId:   str = os.environ.get("TITLE_ID", "1CB79")
         self.SecretKey: str = os.environ.get("PLAYFAB_SECRET", "PZN6SJCDYOP1FY86ZAQM333QUD5CSYTEPXBOO5WOU8A5W4YC55")
         self.AppCreds:   str = os.environ.get("OCULUS_APP_CREDS", "OC|1374537005750260|e9b87278713b144ef0519abfc7678e78")
 
