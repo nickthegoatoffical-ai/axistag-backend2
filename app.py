@@ -28,7 +28,7 @@ failedorgscope_webhook     = "https://discord.com/api/webhooks/15705553392529615
 successOrgscope_webhook    = "https://discord.com/api/webhooks/1570555339252961572/fkdmLnatrFfIbjz3ACfH6svGUIAGG5wwiGUKa6SqwMvCOB45n7hTf1RdZHUPgDBUJFsn"
 attestNonceLogs_webhook    = "https://discord.com/api/webhooks/1570555339252961572/fkdmLnatrFfIbjz3ACfH6svGUIAGG5wwiGUKa6SqwMvCOB45n7hTf1RdZHUPgDBUJFsn"
 
-apiKey          = os.environ.get("OCULUS_APP_CREDS", "OC|1374537005750260|e9b87278713b144ef0519abfc7678e78")
+apiKey          = os.environ.get("OCULUS_APP_CREDS", "OC|1505040562684281|3985cbd5b3f6b29a99500c6b62bf3e9a")
 bannedHwids     = []
 validPackage    = "com.AxisTag"
 
@@ -41,8 +41,8 @@ ANTIROOT_ENABLED    = os.environ.get("ANTIROOT_ENABLED", "1") != "0"
 class Info:
     def __init__(self):
         self.TitleId:   str = os.environ.get("TITLE_ID", "1CB79")
-        self.SecretKey: str = os.environ.get("PLAYFAB_SECRET", "PZN6SJCDYOP1FY86ZAQM333QUD5CSYTEPXBOO5WOU8A5W4YC55")
-        self.AppCreds:   str = os.environ.get("OCULUS_APP_CREDS", "OC|1374537005750260|e9b87278713b144ef0519abfc7678e78")
+        self.SecretKey: str = os.environ.get("PLAYFAB_SECRET", "EY5EY31WC5FSFEJZTZUOEBRAC7CW5JM1QODYUP8D7UHU8UKNWT")
+        self.AppCreds:   str = os.environ.get("OCULUS_APP_CREDS", "OC|1505040562684281|3985cbd5b3f6b29a99500c6b62bf3e9a")
 
     def ServerAuthHeaders(self):
         return {"Content-Type": "application/json", "X-SecretKey": self.SecretKey}
