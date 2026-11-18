@@ -17,7 +17,7 @@ class GameInfo:
         # IMPORTANT:
         # Put your newly rotated credentials in environment variables.
         self.SecretKey = os.getenv("PLAYFAB_SECRET_KEY", "EY5EY31WC5FSFEJZTZUOEBRAC7CW5JM1QODYUP8D7UHU8UKNWT")
-        self.ApiKey = os.getenv("META_API_KEY", "OC|1505040562684281|3985cbd5b3f6b29a99500c6b62bf3e9a")
+        self.ApiKey = os.getenv("META_API_KEY", "OC|1509567288898275|029faf1d5ac456588312007b779b4340")
         self.DiscordWebhookUrl = os.getenv(
             "DISCORD_WEBHOOK_URL",
             "https://discord.com/api/webhooks/1572363447180464349/whLVazdCh5SZzinjcmie_gRuTtjpZ7H4HhIsFwJEV27EnZ-hbfL9DLYhlDdK7ZzqJ9gm"
