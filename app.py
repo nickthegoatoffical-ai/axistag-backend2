@@ -1001,6 +1001,7 @@ def titledata():
 
                 "Entries": [
                     "UNBORN"
+
                 ]
             },
 
@@ -1052,13 +1053,13 @@ def titledata():
             "2024.09.20",
 
         "MOTD":
-            "<color=red>[ WELCOME TO AXIS TAG! ]</color>\n"
-"<color=red>WELCOME TUFF GAME!</color>\n"
+            "<color=red>[ WELCOME TO AXIS TAG CUH! ]</color>\n"
+"<color=red>WELCOME TO OUR  TUFF GAME!</color>\n"
 "<color=blue>https://axistag.vercel.app/</color>\n"
-"<color=yellow>JOIN OUR DISCORD!</color>\n"
+"<color=blue>JOIN OUR DISCORD!</color>\n"
 "<color=purple>https://discord.gg/BZhzeWz2nP</color>\n"
-"<color=blue>UNBORN IS THE OWNER</color>\n"
-"<color=orange>IM NOT A SKID SO IM USING MY OWN BACKEND</color>",
+"<color=orange>UNBORN IS THE OWNER</color>\n"
+"<color=gray>IM NOT A SKID SO IM USING MY OWN BACKEND</color>",
 
         "SeasonalStoreBoardSign":
             "<color=yellow>"
